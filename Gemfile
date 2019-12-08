@@ -3,10 +3,10 @@ source 'https://rubygems.org'
 gem 'rails', '~> 4.2.10'
 gem 'state_machine', :git =>"https://github.com/bbc/hive_state_machine.git"
 gem 'jquery-rails'
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 5.0.7'
 gem 'autoprefixer-rails'
 
-gem 'bootstrap-sass', '< 3.3.0'
+gem 'bootstrap-sass', '~> 3.3.7'
 gem "bootstrap-switch-rails", '< 3.1.0'
 gem 'font-awesome-sass' ,'4.2.0'
 gem "select2-rails"
@@ -66,7 +66,7 @@ group :test do
 end
 
 group :production do
-  gem 'mysql2', '~> 0.3.18'
+  gem 'mysql2', '~> 0.5.2'
 end
 
 # Deprecated method used by other gems
