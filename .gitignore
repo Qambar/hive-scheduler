@@ -16,6 +16,8 @@ vendor/bundle
 public/artifacts/
 public/builds
 app/assets/stylesheets/.sass-cache
+.bundle
+bin/
 
 # Private and protected key files for Chamber
 .chamber.pem
